@@ -17,7 +17,7 @@ jobs:
   reusable-job:
     runs-on: ubuntu-22.04
     outputs:
-      current-time: ${{ steps.time.outputs.current-time }
+      current-time: ${{ steps.time.outputs.current-time }}
     steps:
       - name: Greet Someone
         run: echo "Hello ${{ inputs.who-to-greet }}"

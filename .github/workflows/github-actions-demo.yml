@@ -45,7 +45,7 @@ jobs:
     environment: Load-Test
     steps:
       - run: |
-          echo "🧪 Testing..."
+          /home/dustin/dustin.sh
           sleep 15
   
   Production:

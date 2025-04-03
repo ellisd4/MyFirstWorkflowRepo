@@ -1,10 +1,11 @@
 name: Reuse our other workflow
 
-on: [workflow_dispatch]
+on: 
+  workflow_dispatch:
 
 jobs:
   call-workflow:
-    uses: ./.github/workflows/reusable.yml
+    uses: ellisd4/.github/workflows/reusable.yml@latest
     with: 
       who-to-greet: '@ellisd4'
   use-output:
